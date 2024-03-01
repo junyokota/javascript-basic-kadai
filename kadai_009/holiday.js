@@ -10,7 +10,7 @@ for (let i = 0; i <= 15; i++) {
 let i = 0;
 
 // whileで1～15までの祝日を順番に出力する
-while (i < 15) {
+while (i <= 15) {
     console.log(holidays[i]);
     i++;     
   }
